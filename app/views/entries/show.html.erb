@@ -21,6 +21,9 @@
       <div class="panel-block">
         Fats: <%= @entry.fats %>
       </div>
+      <div class="panel-block">
+        Category: <%= @entry.category.title if @entry.category.present? %>
+      </div>
     </nav>
     <div class="columns is-mobile">
       <div class="column">
